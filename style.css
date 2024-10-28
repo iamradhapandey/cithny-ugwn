@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "General sans";
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#main{
+    height: 100vh;
+    background-color: blueviolet;
+}
+#page1{
+    height: 100vh;
+    width: 100vw;
+    color: #fff;
+    background-color: black;
+}
+#nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100vw;
+    color: #fff;
+    padding: 2vh 2vw;
+
+}
+#nav a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 2.5vh;
+}
+#headline{
+    margin-top: 6vh;
+}
+#headline{
+opacity: 0.7;
+font-family: "General sans";
+text-transform: uppercase;
+font-size: 9vh;
+font-weight: 900;
+line-height: 1;
+margin-left: 2.5vw;
+
+}
+.blocktext{
+    width: fit-content;
+    /* background-color: palevioletred; */
+}
+#headline #secondh1{
+margin-left: 13vw;
+}
+.blocktext h5{
+    text-align: right;
+    font-size: large;
+    text-transform: uppercase;
+}
+#headline2{
+    margin-top: 12vw;
+    padding-right: 4vw;
+}
+#headline2 h5{
+    text-align: right;
+    line-height: 1.6;
+    text-transform: uppercase;
+    font-size: 1.2vw;
+    
+}
+#page1-footer{
+  /* background-color: aqua; */
+  padding: 0 2vw;
+  width: 100vw;
+  position: absolute;
+   bottom: 3%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between
+}
+#page1-footer a{
+    text-transform: uppercase;
+    color: #fff;
+    text-decoration: none;
+}
+#page1-footer #iconset{
+    display: flex;
+    gap: 0.5vw;
+}
+#page1-footer .circle{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background-color: #888
+}
+#page1-footer .circle i{
+    color: #000;
+    
+}
